@@ -1,0 +1,592 @@
+body {
+    margin: 0% auto;
+}
+
+/* header starts */
+#header {
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    box-shadow: 20px 2px 30px rgb(173, 171, 171);
+}
+
+.logo {
+    flex-basis: 10%;
+    margin: 5px 0px 5px 20px;
+}
+
+.logo img {
+    width: 120px;
+    height: 55px;
+}
+
+.menu {
+    flex-basis: 90%;
+    position: relative;
+    text-align: right;
+}
+
+.menu ul {
+    display: inline-flex;
+    list-style-type: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.menu ul li {
+    margin: 10px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu ul li.has_submenu:hover .dropdown1 {
+    opacity: 1;
+    visibility: visible;
+}
+
+.menu ul li.has_submenu:hover .dropdown2 {
+    opacity: 1;
+    visibility: visible;
+}
+
+.menu ul li.has_submenu:hover .dropdown3 {
+    opacity: 1;
+    visibility: visible;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+.menu ul li a:hover {
+    background-color: rgba(248, 207, 214, 0.309);
+    color: rgb(133, 9, 9);
+    border-radius: 10px;
+}
+
+.menu ol {
+    display: block;
+    list-style-type: none;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 0px 5px 10px;
+    border-radius: 20px;
+    box-shadow: -2px -2px 10px rgb(143, 137, 137);
+    box-shadow: 2px 2px 10px rgb(143, 137, 137);
+    text-align: left;
+}
+
+.menu ol li {
+    display: block;
+    padding: 15px 0px 10px 0px;
+}
+
+.menu ol li a {
+    padding: 20px;
+}
+
+.menu ol li a:hover {
+    background: linear-gradient(145deg, rgb(98, 2, 2) 10%, rgb(127, 34, 34) 40%, rgb(250, 98, 98) 90%);
+    color: white;
+    border: 1px solid rgb(245, 50, 50);
+    border-radius: 8px;
+    width: 100%;
+}
+
+.dropdown1 {
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.dropdown2 {
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.dropdown3 {
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.menu button {
+    padding: 10px 20px 10px 20px;
+    border-radius: 30px;
+    border: 1px solid black;
+    font-size: 15px;
+    background-color: white;
+    color: black;
+}
+
+.menu button a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.menu button:hover {
+    background-color: black;
+    color: white;
+}
+
+/* header stops   */
+#section {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.855);
+}
+
+/* container1 starts */
+.container1 {
+    width: 100%;
+    background-image: url(../images/index.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120%;
+    margin: 50px 0px 0px 0px;
+}
+
+.home-box {
+    display: flex;
+    margin: 0px 0px 0px 0px;
+}
+
+.home-left {
+    flex-basis: 50%;
+    margin: 0px 0px 0px 30px;
+}
+
+.home-left h4 {
+    font-size: 25px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.home-left h1 {
+    color: #970000;
+    font-size: 55px;
+    margin: -20px 0px 0px 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.home-left p {
+    color: rgb(84, 79, 79);
+    font-size: 25px;
+}
+
+.home-left button {
+    margin: 30px 0px 145px 0px;
+    color: white;
+    background-color: rgb(130, 16, 16);
+    padding: 20px 35px 20px 35px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 2px 10px 15px rgb(172, 170, 170);
+}
+
+.home-left button:hover {
+    color: rgb(130, 16, 16);
+    border: 1px solid rgb(130, 16, 16);
+    background-color: white;
+}
+
+.home-left button a {
+    color: inherit;
+    margin: 20px 20px 20px 20px;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.home-right {
+    flex-basis: 50%;
+}
+
+/* container1 stops */
+/* container2 starts */
+.contain-box-1 {
+    background-color: rgb(230, 228, 228);
+    border-radius: 10px;
+    margin: -70px 5px 0px 15px;
+}
+
+.contain-box {
+    margin: 30px 30px 30px 30px;
+    display: inline;
+}
+
+.contain-left {
+    margin: 60px 50px 50px 75px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contain-left h1 {
+    font-size: 40px;
+    color: rgb(35, 35, 35);
+}
+
+.contain-left h1 span {
+    color: #970000;
+}
+
+.contain-left p {
+    color: rgba(88, 86, 86, 0.686);
+    margin: -20px 0px 0px 20px;
+}
+
+.contain-left h4 {
+    padding-top: 20px;
+}
+
+.contain-right {
+    margin: 0px 30px 30px 80px;
+}
+
+.contain-right table {
+    border: none;
+}
+
+.contain-right table td {
+    padding: 0px 30px 50px 30px;
+}
+
+.contain-right table td h1 {
+    color: rgba(0, 0, 0, 0.777);
+    font-size: 40px;
+}
+
+.contain-right table td p {
+    color: rgb(90, 89, 89);
+    margin: -50px 0px 0px 0px;
+}
+
+.contain-right table td p span {
+    font-size: 80px;
+}
+
+.dot1 {
+    color: purple;
+}
+
+.dot2 {
+    color: red;
+}
+
+.dot3 {
+    color: blue;
+}
+
+.dot4 {
+    color: yellow;
+}
+
+.dot5 {
+    color: green;
+}
+
+/* container2 stops */
+/* container3 starts */
+.container3 {
+    width: 100%;
+}
+
+.image-box {
+    display: inline;
+}
+
+.image-left {
+    display: flex;
+    margin: 0px 0px 0px 80px;
+}
+
+.image-box1 {
+    border: 1px solid whitesmoke;
+    margin: 50px;
+    padding: 70px 10px 0px 10px;
+    box-shadow: 10px 10px 20px rgb(198, 197, 197);
+    border-radius: 10px;
+}
+
+.image-box2 {
+    border: 1px solid whitesmoke;
+    margin: 50px;
+    padding: 80px 10px 0px 10px;
+    box-shadow: 10px 10px 20px rgb(198, 197, 197);
+    border-radius: 10px;
+}
+
+.image-box3 {
+    border: 1px solid whitesmoke;
+    margin: 50px;
+    padding: 20px 10px 20px 10px;
+    box-shadow: 10px 10px 20px rgb(198, 197, 197);
+    border-radius: 10px;
+}
+
+.image-box4 {
+    border: 1px solid whitesmoke;
+    margin: 50px;
+    padding: 40px 10px 20px 10px;
+    box-shadow: 10px 10px 20px rgb(198, 197, 197);
+    border-radius: 10px;
+}
+
+.image-right {
+    display: flex;
+    margin: 0px 0px 0px 80px;
+}
+
+.image-box5 {
+    border: 1px solid whitesmoke;
+    margin: 50px;
+    padding: 80px 28px 20px 28px;
+    box-shadow: 10px 10px 20px rgb(198, 197, 197);
+    border-radius: 10px;
+}
+
+.image-box6 {
+    border: 1px solid whitesmoke;
+    margin: 50px;
+    padding: 80px 15px 20px 15px;
+    box-shadow: 10px 10px 20px rgb(198, 197, 197);
+    border-radius: 10px;
+}
+
+.image-box7 {
+    border: 1px solid whitesmoke;
+    margin: 50px;
+    padding: 70px 20px 20px 20px;
+    box-shadow: 10px 10px 20px rgb(198, 197, 197);
+    border-radius: 10px;
+}
+
+.image-box8 {
+    border: 1px solid whitesmoke;
+    margin: 50px;
+    padding: 30px 20px 20px 20px;
+    box-shadow: 10px 10px 20px rgb(198, 197, 197);
+    border-radius: 10px;
+}
+
+/* container3 stops */
+/* container4 starts */
+.container4 {
+    width: 100%;
+}
+
+.contain-box-2 {
+    background-color: rgba(217, 216, 216, 0.665);
+    margin: 50px 25px 50px 25px;
+    border-radius: 20px;
+    display: flex;
+}
+
+.success-box {
+    display: flex;
+}
+
+.success-left {
+    flex-basis: 50%;
+    padding: 80px 0px 0px 100px;
+}
+
+.success-left img {
+    border: 10px solid white;
+    border-radius: 5px;
+    box-shadow: 10px 10px 20px rgb(204, 204, 204);
+}
+
+.success-right {
+    flex-basis: 50%;
+    margin: 50px 80px 50px 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.success-right h1 {
+    color: rgb(7, 0, 0);
+}
+
+.Google1 {
+    color: rgb(23, 106, 221);
+}
+
+.Google2 {
+    color: red;
+}
+
+.Google3 {
+    color: rgb(244, 202, 97);
+}
+
+.Google4 {
+    color: rgb(23, 106, 221);
+}
+
+.Google5 {
+    color: greenyellow;
+}
+
+.Google6 {
+    color: red;
+}
+
+.success-right p.head {
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.653);
+}
+
+.success-right hr {
+    border: 1px solid rgb(162, 5, 5);
+    color: rgb(145, 3, 3);
+    width: 8%;
+    margin: 5px 80px 0px 0px;
+}
+
+.success-right h4 {
+    font-size: 20px;
+    color: rgba(9, 9, 9, 0.784);
+}
+
+.success-right h5 {
+    font-size: 18px;
+    color: rgba(32, 31, 31, 0.784);
+}
+
+.success-right p {
+    color: rgba(0, 0, 0, 0.818);
+}
+
+.success-right h3 {
+    color: rgb(140, 3, 3, 0.818);
+    margin: 80px 0px 0px 10px;
+}
+
+.success-right h3 a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* container4 stops */
+/* container5 starts */
+.container5 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.studies-box {
+    background-color: rgba(217, 216, 216, 0.664);
+    border-radius: 20px;
+    margin: 50px 25px 0px 25px;
+    padding: 30px;
+}
+
+.studies-box h1 {
+    text-align: center;
+    padding: 0px 0px 50px 0px;
+}
+
+.studies-box h1 span {
+    color: #970000;
+}
+
+.studies-box ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.studies-box ul li {
+    flex-basis: 25%;
+}
+
+.studies-box ul li img {
+    margin: 10px;
+}
+
+.studies-box ul li.has_submenu:hover .pop-up1 {
+    opacity: 1;
+    visibility: visible;
+}
+
+.pop-up1 {
+    position: absolute;
+    margin: -80px 0px 0px 0px;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.pop-up1 ol {
+    list-style-type: none;
+}
+
+.pop-up1 ol {
+    display: block;
+    list-style-type: none;
+    padding: 5px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    box-shadow: -2px -2px 10px rgb(143, 137, 137);
+    box-shadow: 2px 2px 10px rgb(143, 137, 137);
+    text-align: left;
+    width: 300px;
+    height: 250px;
+}
+
+.pop-up1 ol p {
+    display: block;
+    color: #970000;
+    padding: 10px;
+    background-color: white;
+}
+
+/* container5 stops */
+/* container6 starts */
+.container6{
+    width: 100%;
+}
+.idea-box{
+    display: flex;
+    margin: 50px;
+}
+.idea-left{
+    display: 25%;
+    text-align: left;
+}
+.block-idea{
+    text-align: left;
+}
+.idea-left h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.idea-left h1 span{
+    color: rgb(135, 4, 4);
+}
+.idea-right{
+    display: 75%;
+    text-align: right;
+}
+.button-idea{
+    text-align: right;
+}
+.idea-right p{
+    color: black;
+}
+.idea-right p a{
+    text-decoration: none;
+    color: inherit;
+    text-align: right;
+}
+.idea-right hr{
+    color: black;
+    border: 1px solid black;
+}
+/* container6 stops */
